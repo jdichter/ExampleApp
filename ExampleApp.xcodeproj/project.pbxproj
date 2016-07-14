@@ -14,6 +14,8 @@
 		22C7F6A01D38159C0038EB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F69E1D38159C0038EB6A /* LaunchScreen.storyboard */; };
 		22C7F6AB1D38159D0038EB6A /* ExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F6AA1D38159D0038EB6A /* ExampleAppTests.swift */; };
 		22C7F6B61D38159D0038EB6A /* ExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F6B51D38159D0038EB6A /* ExampleAppUITests.swift */; };
+		22C7F6C51D3837CA0038EB6A /* phone2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F6C31D3837CA0038EB6A /* phone2.jpg */; };
+		22C7F6C61D3837CA0038EB6A /* phone1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F6C41D3837CA0038EB6A /* phone1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		22C7F6B11D38159D0038EB6A /* ExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C7F6B51D38159D0038EB6A /* ExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppUITests.swift; sourceTree = "<group>"; };
 		22C7F6B71D38159D0038EB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C7F6C31D3837CA0038EB6A /* phone2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phone2.jpg; sourceTree = "<group>"; };
+		22C7F6C41D3837CA0038EB6A /* phone1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phone1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				22C7F6971D38159C0038EB6A /* ViewController.swift */,
 				22C7F6991D38159C0038EB6A /* Main.storyboard */,
 				22C7F69C1D38159C0038EB6A /* Assets.xcassets */,
+				22C7F6C31D3837CA0038EB6A /* phone2.jpg */,
+				22C7F6C41D3837CA0038EB6A /* phone1.jpg */,
 				22C7F69E1D38159C0038EB6A /* LaunchScreen.storyboard */,
 				22C7F6A11D38159C0038EB6A /* Info.plist */,
 			);
@@ -229,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C7F6C61D3837CA0038EB6A /* phone1.jpg in Resources */,
 				22C7F6A01D38159C0038EB6A /* LaunchScreen.storyboard in Resources */,
+				22C7F6C51D3837CA0038EB6A /* phone2.jpg in Resources */,
 				22C7F69D1D38159C0038EB6A /* Assets.xcassets in Resources */,
 				22C7F69B1D38159C0038EB6A /* Main.storyboard in Resources */,
 			);
@@ -482,6 +490,7 @@
 				22C7F6BC1D38159D0038EB6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C7F6BD1D38159D0038EB6A /* Build configuration list for PBXNativeTarget "ExampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				22C7F6BF1D38159D0038EB6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C7F6C01D38159D0038EB6A /* Build configuration list for PBXNativeTarget "ExampleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				22C7F6C21D38159D0038EB6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
